@@ -1,0 +1,10 @@
+<?php
+$servername = "mysqlcluster3.registeredsite.com";
+$username = "sit";
+$password = "Sit1234567";
+$database="VAS";
+// Create connection
+ mysql_connect($servername, $username, $password);
+mysql_select_db($database) or die( "Unable to select database");
+
+?>
